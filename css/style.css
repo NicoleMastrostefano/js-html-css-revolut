@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  font-family: "Lato",sans-serif;
+  height: 90px;
+}
+
+.clearfix {
+   display: table;
+   content: "";
+   clear: both;
+}
+
+.relative {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 40px;
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 20px;
+  padding: 25px 0px;
+  box-shadow: 6px 6px 6px -8px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  display: none;
+}
+
+.dropdown li {
+  list-style: none;
+  line-height: 30px;
+}
+
+#head-right li,
+#head-left li{
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: black;
+}
+
+#head-left {
+  float: left;
+  width: 42%;
+  padding:30px 0px 30px 60px;
+}
+
+#head-left img {
+  height: 30px;
+  margin-right: 30px;
+}
+
+#head-right {
+  float: right;
+  width: calc(100% - 42%);
+  padding:37px 0px 37px 20px;
+}
