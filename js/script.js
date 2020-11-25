@@ -6,14 +6,14 @@ $(document).ready(
   relative.mouseenter(
     function() {
       var index = $(this).index()-1;
-      $(dropdown[index]).toggle();
+      $(dropdown[index]).show();
     }
   );
-  
+
   relative.mouseleave(
     function() {
       var index = $(this).index()-1;
-      $(dropdown[index]).toggle();
+      $(dropdown[index]).hide();
     }
   );
 
