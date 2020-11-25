@@ -42,7 +42,7 @@ li#color-black a {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .relative {
