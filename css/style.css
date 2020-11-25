@@ -16,47 +16,6 @@ header {
    clear: both;
 }
 
-.relative {
-  position: relative;
-  list-style: none;
-  display: inline-block;
-  vertical-align: middle;
-  padding-right: 40px;
-}
-
-.dropdown {
-  position: absolute;
-  margin-top: 20px;
-  padding: 25px 0px;
-  box-shadow: 6px 6px 6px -8px rgba(0,0,0,0.75);
-  border-radius: 5px;
-  display: none;
-}
-
-.dropdown li {
-  list-style: none;
-  line-height: 30px;
-}
-
-#head-right li,
-#head-left li{
-  list-style: none;
-  display: inline-block;
-  vertical-align: middle;
-  padding-right: 40px;
-}
-
-li a {
-  text-decoration: none;
-  color: grey;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-li a:hover {
-  color: black;
-}
-
 #head-left {
   float: left;
   width: 42%;
@@ -68,8 +27,55 @@ li a:hover {
   margin-right: 30px;
 }
 
+li#color-black a {
+  color: black;
+}
+
 #head-right {
   float: right;
   width: calc(100% - 42%);
   padding:37px 0px 37px 20px;
+}
+
+#head-right a,
+#head-left li{
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 40px;
+}
+
+.relative {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dropdown {
+  width: 180px;
+  padding: 15px;
+  color: grey;
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+  box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.3), -8px 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+}
+
+.dropdown li {
+  list-style: none;
+  line-height: 50px;
+}
+
+header li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: black;
 }

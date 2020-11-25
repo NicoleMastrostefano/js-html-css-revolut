@@ -9,6 +9,13 @@ $(document).ready(
       $(dropdown[index]).toggle();
     }
   );
+  
+  relative.mouseleave(
+    function() {
+      var index = $(this).index()-1;
+      $(dropdown[index]).toggle();
+    }
+  );
 
   relative.click(
     function() {
@@ -20,5 +27,3 @@ $(document).ready(
   }
 );
 // gestire remove/add active
-// bonus
-// sistemare skin
