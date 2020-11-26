@@ -46,7 +46,6 @@ li#color-black a {
   padding-right: 40px;
 }
 
-
 .relative {
   position: relative;
   list-style: none;
@@ -59,8 +58,6 @@ li#color-black a {
   padding: 15px;
   color: grey;
   position: absolute;
-  left: 0;
-  margin-top: 20px;
   box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.3), -8px 6px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   display: none;
